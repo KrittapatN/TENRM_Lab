@@ -3,6 +3,12 @@ import { useTranslation } from 'react-i18next';
 import emailjs from '@emailjs/browser';
 import './Contact.css';
 
+const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+// The form only renders when EmailJS is configured (env vars set at build time)
+const EMAILJS_CONFIGURED = Boolean(SERVICE_ID && TEMPLATE_ID && PUBLIC_KEY);
+
 const Contact: React.FC = () => {
   const { t } = useTranslation();
   const form = useRef<HTMLFormElement>(null);
@@ -16,10 +22,6 @@ const Contact: React.FC = () => {
 
     setIsSending(true);
     setStatusMessage(null);
-
-    const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
-    const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
-    const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
     emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
       .then((result) => {
@@ -54,6 +56,7 @@ const Contact: React.FC = () => {
             {/* TODO: restore the email and phone info-items once the lab's real contact details are available */}
           </div>
 
+          {EMAILJS_CONFIGURED && (
           <div className="contact-form-container">
             <h3>{t('contact.form_title')}</h3>
             <form ref={form} className="contact-form" onSubmit={sendEmail}>
@@ -80,6 +83,7 @@ const Contact: React.FC = () => {
               )}
             </form>
           </div>
+          )}
         </div>
 
         <div className="map-container">
