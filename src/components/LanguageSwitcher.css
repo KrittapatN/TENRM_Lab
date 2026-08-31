@@ -1,0 +1,17 @@
+.lang-switcher {
+  background: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.75rem;
+  transition: all 0.3s ease;
+  margin-left: 0.5rem;
+}
+
+.lang-switcher:hover {
+  background: #ffffff;
+  color: var(--primary-color);
+}

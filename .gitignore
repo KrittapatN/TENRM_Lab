@@ -1,0 +1,25 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+
+# Environment variables (EmailJS keys)
+.env
+.env.local
+.env.*.local
+
+# Local Claude Code settings (personal, not shared)
+.claude/settings.local.json
+
+# Editor and OS files
+.DS_Store
+*.local
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# Logs
+logs
+*.log
+npm-debug.log*

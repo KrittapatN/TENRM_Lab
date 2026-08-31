@@ -1,0 +1,73 @@
+{
+  "navbar": {
+    "home": "Home",
+    "research": "Research",
+    "team": "Team",
+    "publications": "Publications",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero_title": "Tropical Ecology and Natural Resource Management Laboratory",
+    "hero_subtitle": "Preserving biodiversity and managing natural resources through ecological research and sustainable practices.",
+    "about_title": "About TENRM Lab",
+    "about_text": "The TENRM Lab is dedicated to addressing the complex challenges in tropical ecology and natural resource management. Our multi-disciplinary team of researchers and scientists works together to develop innovative solutions that promote conservation, sustainability, and resilience in tropical ecosystems.",
+    "stats": {
+      "projects": "Active Projects",
+      "publications": "Publications",
+      "members": "Lab Members",
+      "boardgames": "Board Games Created in the Lab"
+    }
+  },
+  "research": {
+    "title": "Research Areas & Projects",
+    "intro": "Our laboratory focuses on cutting-edge research in tropical ecology and natural resource management. We aim to bridge the gap between ecological theory and practical, sustainable conservation practices.",
+    "learn_more": "Learn More",
+    "status": {
+      "ongoing": "Ongoing",
+      "completed": "Completed"
+    }
+  },
+  "project_detail": {
+    "back": "Back to Research",
+    "not_found_title": "Project not found",
+    "not_found_text": "The research project you are looking for does not exist or has been moved.",
+    "overview": "Overview",
+    "detailed_info": "Detailed Information",
+    "fallback_content": "Detailed information for this project is currently being compiled. Please check back soon for updates on our findings and methodologies."
+  },
+  "team": {
+    "title": "Our Team",
+    "intro": "Dedicated professionals and students working together to advance knowledge and solve real-world problems.",
+    "categories": {
+      "head": "Lab Head",
+      "phd": "PhD Students",
+      "master": "Master's Students",
+      "bachelor": "Bachelor's Students",
+      "alumni": "Alumni"
+    }
+  },
+  "publications": {
+    "title": "Academic Publications",
+    "intro": "Our research findings are shared with the global academic community through peer-reviewed journals and conferences.",
+    "view_pub": "View Publication"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "intro": "We welcome inquiries from potential collaborators, students, and the general public. Please feel free to reach out to us using the information below.",
+    "office": "Office Location",
+    "address1": "TENRM Lab, Room 104, Klum Watcharobol Building (SCI10)",
+    "address2": "Chulalongkorn University, Bangkok 10330, Thailand",
+    "faculty": "Department of Biology, Faculty of Science, Chulalongkorn University",
+    "email": "Email",
+    "phone": "Phone",
+    "form_title": "Send us a Message",
+    "label_name": "Name",
+    "label_email": "Email",
+    "label_message": "Message",
+    "btn_send": "Send Message",
+    "btn_sending": "Sending...",
+    "success_msg": "Thank you! Your message has been sent successfully.",
+    "error_msg": "Oops! Something went wrong. Please try again later.",
+    "map_title": "Our Location"
+  }
+}
