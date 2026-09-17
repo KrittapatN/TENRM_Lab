@@ -8,6 +8,9 @@ import ProjectDetail from './pages/ProjectDetail';
 import Team from './pages/Team';
 import Publications from './pages/Publications';
 import Contact from './pages/Contact';
+import Adapt from './features/adapt/Adapt';
+import Games from './features/games/Games';
+import RouteEffects from './components/RouteEffects';
 
 function App() {
   const { i18n } = useTranslation();
@@ -18,6 +21,7 @@ function App() {
 
   return (
     <Router basename={import.meta.env.BASE_URL}>
+      <RouteEffects />
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -26,6 +30,9 @@ function App() {
           <Route path="/team" element={<Team />} />
           <Route path="/publications" element={<Publications />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/adapt/*" element={<Adapt />} />
+          <Route path="/games" element={<Games />} />
+          <Route path="/games/:slug" element={<Games />} />
         </Routes>
       </Layout>
     </Router>

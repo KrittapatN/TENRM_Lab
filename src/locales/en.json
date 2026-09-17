@@ -4,7 +4,12 @@
     "research": "Research",
     "team": "Team",
     "publications": "Publications",
-    "contact": "Contact"
+    "contact": "Contact",
+    "games": "Game",
+    "adapt": "ADAPT",
+    "navigation": "Main navigation",
+    "menu": "Menu",
+    "close": "Close"
   },
   "home": {
     "hero_title": "Tropical Ecology and Natural Resource Management Laboratory",
