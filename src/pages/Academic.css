@@ -1,0 +1,10 @@
+.academic-courses { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1rem; }
+.academic-course { padding: 1.4rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.academic-code { font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; color: var(--green-500); margin-bottom: .5rem; }
+.academic-course h3 { font-size: 1.15rem; }
+.academic-related { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
+.academic-related > div { display: flex; flex-direction: column; align-items: flex-start; }
+.academic-related h2 { font-size: 1.7rem; letter-spacing: -.03em; }
+.academic-related p:not(.eyebrow) { color: var(--muted); }
+.academic-related .btn { margin-top: auto; }
+@media (max-width: 760px) { .academic-related { grid-template-columns: 1fr; } }

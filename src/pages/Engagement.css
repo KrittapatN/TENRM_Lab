@@ -1,0 +1,29 @@
+.engage-jump { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 2rem; }
+.engage-layout { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 2.5rem; align-items: start; padding-top: 1rem; }
+.engage-map { position: sticky; top: 92px; height: calc(100vh - 130px); max-height: 600px; display: flex; flex-direction: column; gap: .6rem; }
+.engage-map .site-map { flex: 1; }
+.engage-group { padding: 2.5rem 0; border-top: 1px solid var(--line); scroll-margin-top: 90px; }
+.engage-group:first-child { border-top: 0; padding-top: 1rem; }
+.engage-group-head { display: flex; gap: 1.2rem; margin-bottom: 1.4rem; }
+.engage-num { font-size: .85rem; color: var(--green-500); font-weight: 600; padding-top: .55rem; font-variant-numeric: tabular-nums; }
+.engage-group h2 { font-size: 1.7rem; letter-spacing: -.03em; margin-bottom: .4rem; }
+.engage-group-head p { color: var(--muted); margin: 0; }
+.engage-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.engage-card { padding: 1.3rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); display: flex; flex-direction: column; transition: border-color .2s, background .2s; }
+.engage-card.is-active { border-color: var(--sun); background: #fbf6e6; }
+.engage-card h3 { font-size: 1.15rem; margin-bottom: .2rem; }
+.engage-pin { align-self: flex-start; border: 0; cursor: pointer; font-family: inherit; text-align: start; margin-bottom: .7rem; }
+.engage-pin[aria-pressed='true'] { background: var(--sun); color: var(--green-900); }
+.engage-place { font-size: .85rem; color: var(--muted); margin-bottom: .5rem; }
+.engage-pending { font-size: .88rem; color: var(--muted); font-style: italic; margin: 0; }
+.engage-lessons { padding-left: 1.2rem; font-size: .92rem; }
+.engage-links { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: auto; padding-top: 1rem; }
+
+@media (max-width: 960px) {
+  .engage-layout { grid-template-columns: 1fr; }
+  .engage-map { position: static; height: 320px; order: -1; }
+}
+@media (max-width: 600px) {
+  .engage-cards { grid-template-columns: 1fr; }
+  .engage-group-head { gap: .8rem; }
+}

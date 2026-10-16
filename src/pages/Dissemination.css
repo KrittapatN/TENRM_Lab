@@ -1,0 +1,57 @@
+.diss-leaders { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; padding: 2rem 32px 0; }
+.diss-leader { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1rem 1.2rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.diss-leader.is-active { border-color: var(--green-700); background: var(--tint); }
+.diss-leader button { all: unset; cursor: pointer; display: flex; flex-direction: column; min-width: 0; }
+.diss-leader button:focus-visible { outline: 3px solid var(--sun); outline-offset: 4px; }
+.diss-leader strong { color: var(--ink); font-size: .95rem; font-weight: 600; }
+.diss-leader span { color: var(--muted); font-size: .8rem; }
+.diss-leader a { font-size: .78rem; font-weight: 600; color: var(--green-700); white-space: nowrap; border-bottom: 1px solid currentColor; }
+
+.diss-tools { padding: 2rem 32px 1rem; }
+.diss-tabs, .diss-sub, .diss-tags { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1rem; }
+.diss-sub { padding-left: .8rem; border-left: 2px solid var(--leaf); }
+.tag-btn { font: inherit; font-size: .8rem; border: 0; background: none; color: var(--green-700); padding: .2rem .35rem; border-radius: 4px; cursor: pointer; }
+.tag-btn:hover { background: var(--tint); }
+.tag-btn.is-on { background: var(--green-700); color: #fff; }
+.diss-status { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem; margin-top: 1.2rem; padding-top: 1rem; border-top: 1px solid var(--line); }
+.diss-status .result-count { margin: 0 .6rem 0 0; }
+.active-filter { background: var(--tint); border-color: var(--leaf); }
+.clear { font: inherit; font-size: .82rem; background: none; border: 0; color: var(--muted); text-decoration: underline; cursor: pointer; }
+
+.diss-body { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 2.5rem; align-items: start; padding-top: 1rem; }
+.diss-map { position: sticky; top: 92px; height: calc(100vh - 130px); max-height: 640px; order: 2; display: flex; flex-direction: column; gap: .6rem; }
+.diss-map .site-map { flex: 1; }
+.diss-map-note { font-size: .8rem; color: var(--muted); margin: 0; }
+
+.diss-list { list-style: none; order: 1; }
+.diss-item { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 1.2rem; padding: 1.5rem 0; border-top: 1px solid var(--line); }
+.diss-item:last-child { border-bottom: 1px solid var(--line); }
+.diss-item.is-library { background: var(--tint); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.5rem; margin-bottom: 1rem; }
+.diss-year { font-weight: 600; color: var(--green-500); font-variant-numeric: tabular-nums; padding-top: .1rem; }
+.diss-kind { font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-bottom: .35rem; }
+.diss-item h3 { font-size: 1.08rem; line-height: 1.4; letter-spacing: -.01em; margin-bottom: .4rem; }
+.diss-item h3 a:hover { color: var(--green-500); text-decoration: underline; text-underline-offset: 3px; }
+.diss-authors { font-size: .88rem; color: var(--text); margin-bottom: .1rem; }
+.diss-venue { font-size: .88rem; color: var(--muted); font-style: italic; margin-bottom: .6rem; }
+.diss-meta { display: flex; flex-wrap: wrap; gap: .35rem; }
+.diss-meta .tag { border: 0; cursor: pointer; font-family: inherit; }
+.diss-meta .tag:hover { background: var(--tint-strong); }
+.tag-site { background: #f3ecd6; color: #6b5420; }
+.diss-detail { margin-top: .7rem; font-size: .88rem; }
+.diss-detail summary { cursor: pointer; color: var(--muted); width: max-content; }
+.diss-detail summary:hover { color: var(--ink); }
+.diss-detail dl { display: grid; grid-template-columns: max-content 1fr; gap: .3rem 1rem; margin: .8rem 0; padding: .9rem 1rem; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; }
+.diss-detail dt { color: var(--muted); }
+.diss-detail dd { color: var(--ink); }
+
+@media (max-width: 960px) {
+  .diss-leaders { grid-template-columns: 1fr; padding: 1.5rem 32px 0; }
+  .diss-body { grid-template-columns: 1fr; }
+  .diss-map { position: static; height: 340px; order: 0; }
+}
+@media (max-width: 700px) {
+  .diss-leaders, .diss-tools { padding-left: 16px; padding-right: 16px; }
+  .diss-tags { flex-wrap: nowrap; overflow-x: auto; padding-bottom: .4rem; }
+  .diss-item { grid-template-columns: 1fr; gap: .2rem; }
+  .diss-detail dl { grid-template-columns: 1fr; }
+}

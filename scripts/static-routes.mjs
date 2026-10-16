@@ -5,10 +5,15 @@ import { readFile, mkdir, writeFile } from 'node:fs/promises';
 const html = await readFile(new URL('../dist/index.html', import.meta.url), 'utf8');
 const games = JSON.parse(await readFile(new URL('../src/features/games/content.json', import.meta.url), 'utf8'));
 const routes = {
-  research: 'Research | TENRM Lab',
+  academic: 'Academic | TENRM Lab',
+  dissemination: 'Dissemination | TENRM Lab',
+  engagement: 'Social Engagement | TENRM Lab',
+  collaborators: 'Collaborators | TENRM Lab',
   team: 'Team | TENRM Lab',
-  publications: 'Publications | TENRM Lab',
   contact: 'Contact | TENRM Lab',
+  // Old addresses; the app redirects them to /dissemination.
+  research: 'Dissemination | TENRM Lab',
+  publications: 'Dissemination | TENRM Lab',
   adapt: 'ADAPT-Nan | Agroecology in Nan, Thailand',
   'adapt/about': 'About ADAPT-Nan | TENRM Lab',
   'adapt/research': 'ADAPT-Nan Research | TENRM Lab',
