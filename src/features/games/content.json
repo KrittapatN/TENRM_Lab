@@ -1,0 +1,189 @@
+[
+  {
+    "slug": "green-roof",
+    "title": {
+      "en": "Green Roof",
+      "th": "หลังคาเขียว"
+    },
+    "category": "urban",
+    "format": {
+      "en": "Board game",
+      "th": "บอร์ดเกม"
+    },
+    "description": {
+      "en": "Explore green roofs as a way to bring nature into urban spaces.",
+      "th": "สำรวจหลังคาเขียวและพื้นที่ธรรมชาติในเมือง"
+    },
+    "guide": "green-roof-guide.pdf"
+  },
+  {
+    "slug": "green-space",
+    "title": {
+      "en": "GreenSpace",
+      "th": "GreenSpace"
+    },
+    "category": "urban",
+    "format": {
+      "en": "Board game",
+      "th": "บอร์ดเกม"
+    },
+    "description": {
+      "en": "A game in the lab collection focused on green spaces.",
+      "th": "เกมในคลังของห้องปฏิบัติการเกี่ยวกับพื้นที่สีเขียว"
+    },
+    "guide": null
+  },
+  {
+    "slug": "urban-green-areas",
+    "title": {
+      "en": "Urban Green Areas",
+      "th": "พื้นที่สีเขียวในเมือง"
+    },
+    "category": "urban",
+    "format": {
+      "en": "Board game",
+      "th": "บอร์ดเกม"
+    },
+    "description": {
+      "en": "Discover a board game centred on urban green areas.",
+      "th": "รู้จักบอร์ดเกมเกี่ยวกับพื้นที่สีเขียวในเมือง"
+    },
+    "guide": null
+  },
+  {
+    "slug": "community-forest",
+    "title": {
+      "en": "Community Forest Management",
+      "th": "การจัดการป่าชุมชน"
+    },
+    "category": "forest",
+    "format": {
+      "en": "Board & card game",
+      "th": "บอร์ดเกมและการ์ดเกม"
+    },
+    "description": {
+      "en": "Explore community forest management through a board and card game.",
+      "th": "สำรวจการจัดการป่าชุมชนผ่านบอร์ดเกมและการ์ดเกม"
+    },
+    "guide": null
+  },
+  {
+    "slug": "reforestation",
+    "title": {
+      "en": "Reforestation Planning",
+      "th": "วางแผนปลูกป่า"
+    },
+    "category": "forest",
+    "format": {
+      "en": "Board game",
+      "th": "บอร์ดเกม"
+    },
+    "description": {
+      "en": "A board game about planning forest restoration.",
+      "th": "บอร์ดเกมเกี่ยวกับการวางแผนปลูกป่า"
+    },
+    "guide": null
+  },
+  {
+    "slug": "terrestrial-mammals",
+    "title": {
+      "en": "Terrestrial Mammals",
+      "th": "สัตว์เลี้ยงลูกด้วยนมบนบก"
+    },
+    "category": "biodiversity",
+    "format": {
+      "en": "Card game",
+      "th": "การ์ดเกม"
+    },
+    "description": {
+      "en": "Discover terrestrial mammals through a card-game format.",
+      "th": "รู้จักสัตว์เลี้ยงลูกด้วยนมบนบกผ่านการ์ดเกม"
+    },
+    "guide": null
+  },
+  {
+    "slug": "lai-nan-biodiversity",
+    "title": {
+      "en": "Lai Nan Biodiversity",
+      "th": "หลากหลายไหล่น่าน"
+    },
+    "category": "biodiversity",
+    "format": {
+      "en": "Card game",
+      "th": "การ์ดเกม"
+    },
+    "description": {
+      "en": "Explore biodiversity with the Lai Nan card game and its Thai-language guide.",
+      "th": "สำรวจความหลากหลายทางชีวภาพผ่านการ์ดเกมหลากหลายไหล่น่านและคู่มือภาษาไทย"
+    },
+    "guide": "lai-nan-guide.pdf"
+  },
+  {
+    "slug": "herptiles",
+    "title": {
+      "en": "Herptiles",
+      "th": "สัตว์สะเทินน้ำสะเทินบกและสัตว์เลื้อยคลาน"
+    },
+    "category": "biodiversity",
+    "format": {
+      "en": "Card game",
+      "th": "การ์ดเกม"
+    },
+    "description": {
+      "en": "A card game focused on amphibians and reptiles.",
+      "th": "การ์ดเกมเกี่ยวกับสัตว์สะเทินน้ำสะเทินบกและสัตว์เลื้อยคลาน"
+    },
+    "guide": null
+  },
+  {
+    "slug": "pak-phli",
+    "title": {
+      "en": "Pak Phli Wetlands",
+      "th": "เกมเศรษฐีทุ่งปากพลี"
+    },
+    "category": "biodiversity",
+    "format": {
+      "en": "Board game",
+      "th": "บอร์ดเกม"
+    },
+    "description": {
+      "en": "A board game themed around the Pak Phli wetland landscape.",
+      "th": "บอร์ดเกมที่มีเนื้อหาเกี่ยวกับพื้นที่ชุ่มน้ำทุ่งปากพลี"
+    },
+    "guide": null
+  },
+  {
+    "slug": "khao-chang-hai",
+    "title": {
+      "en": "Khao Chang Hai",
+      "th": "เกมเศรษฐีเขาช้างหาย"
+    },
+    "category": "biodiversity",
+    "format": {
+      "en": "Board game",
+      "th": "บอร์ดเกม"
+    },
+    "description": {
+      "en": "Explore the Khao Chang Hai-themed game in the lab collection.",
+      "th": "รู้จักเกมเศรษฐีเขาช้างหายในคลังเกมของห้องปฏิบัติการ"
+    },
+    "guide": null
+  },
+  {
+    "slug": "fertilizer",
+    "title": {
+      "en": "Fertilizer Game",
+      "th": "เกมปุ๋ย"
+    },
+    "category": "agriculture",
+    "format": {
+      "en": "Simulation game",
+      "th": "เกมจำลองสถานการณ์"
+    },
+    "description": {
+      "en": "A simulation game focused on fertilizer use in agriculture.",
+      "th": "เกมจำลองสถานการณ์เกี่ยวกับการใช้ปุ๋ยในการเกษตร"
+    },
+    "guide": null
+  }
+]
